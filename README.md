@@ -1,4 +1,4 @@
-# <strong>Automatização de ocorrências escolares do Instituto Federal de Brasília</strong>
+# <strong>Sistema de acompanhamento integrado do aluno</strong>
 
 ### O projeto tem como objetivo a criação de um sistema/aplicação que facilite o registro de ocorrências dos alunos do Instituto, onde esses dados se encontram em uma planilha que:
 
