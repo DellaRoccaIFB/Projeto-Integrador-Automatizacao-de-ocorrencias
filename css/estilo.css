@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow: hidden;
+  }
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #4f8662;
+}
+section .quadrado{
+    position: absolute;
+    filter: blur(100px);
+}
+section .quadrado:nth-child(1){
+    top: -370px;
+    width: 500px;
+    height: 500px;
+    background: #ecf8fa;
+}
+ 
+section .quadrado:nth-child(2){
+    bottom: -170px;
+    left: 110px;
+    width: 500px;
+    height: 500px;
+    background: #1af672;
+}
+
+
+section .quadrado:nth-child(3){
+    bottom: 80px;
+    left: 120px;
+    width: 450px;
+    height: 450px;
+    background: #c10716;
+}
+
+.quadrado{
+    position: absolute;
+    animation: animation 5s linear infinite;
+    animation-delay: calc(1s * var(--i));
+}
+@keyframes animation{
+    0%, 100%{
+        transform: translateX(-50px);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+}
+
+.loginBox{
+    position: relative;
+}
+.loginContainer{
+    position: relative;
+    width: 400px;
+    min-height: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: top;
+    justify-content: center;
+    align-items: justify;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.loginForm{
+    position: relative;
+    width: 1500px;
+    height: 150px;
+    padding: 28px;
+}
+
+.loginForm h2{
+    position: relative;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.loginForm h5{
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+    padding-top: 1px;
+}
+
+.loginForm h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 180px;
+    height: 4px;
+    background: #fff;
+}
+
+.loginForm .inputBox{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.loginForm .inputBox input {
+    width: 295px;
+    background: rgba(255, 255, 255, 0.2);
+    border: nome;
+    outline: nome;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.loginForm .inputBox input::placeholder {
+    color: #fff;
+}
+
+.loginForm .inputBox input [type="submit"]{
+    background: #fff;
+    color: #666;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.loginForm .inputBox input [type="submit"]:hover{
+    background: #faf7fa;
+    border-radius: 10px;    
+}
+
+.EsqueceuSenha, .PrimeiroAcesso {
+    margin-top: 5px;
+    color: #fff;
+}
+  
+.EsqueceuSenha a, .PrimeiroAcesso a {
+    color: #fff;
+    font-weight: 600;
+}
