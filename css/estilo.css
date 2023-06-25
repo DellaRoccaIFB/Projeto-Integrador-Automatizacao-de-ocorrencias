@@ -17,7 +17,7 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #4f8662;
+    background: #93f0b5;
 }
 section .quadrado{
     position: absolute;
@@ -27,7 +27,7 @@ section .quadrado:nth-child(1){
     top: -370px;
     width: 500px;
     height: 500px;
-    background: #ecf8fa;
+    background: #f8dce0;
 }
  
 section .quadrado:nth-child(2){
@@ -35,7 +35,7 @@ section .quadrado:nth-child(2){
     left: 110px;
     width: 500px;
     height: 500px;
-    background: #1af672;
+    background: #0cf42b;
 }
 
 
@@ -44,7 +44,7 @@ section .quadrado:nth-child(3){
     left: 120px;
     width: 450px;
     height: 450px;
-    background: #c10716;
+    background: #f19fa6;
 }
 
 .quadrado{
@@ -121,7 +121,7 @@ section .quadrado:nth-child(3){
     margin-top: 20px;
 }
 
-.loginForm .inputBox input {
+.loginForm .inputBox input, button{
     width: 295px;
     background: rgba(255, 255, 255, 0.2);
     border: nome;
@@ -141,7 +141,8 @@ section .quadrado:nth-child(3){
     color: #fff;
 }
 
-.loginForm .inputBox input [type="submit"]{
+.loginForm .inputBox input [type="Entrar"]{
+  
     background: #fff;
     color: #666;
     width: 100%;
@@ -150,12 +151,22 @@ section .quadrado:nth-child(3){
     margin-bottom: 20px;
     transition: 0.3s;
     border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.loginForm .inputBox input [type="submit"]:hover{
+.loginForm .inputBox input [type="Entrar"]:hover{
+    width: 295px;
     background: #faf7fa;
     border-radius: 10px;    
 }
+
+
 
 .EsqueceuSenha, .PrimeiroAcesso {
     margin-top: 5px;
@@ -166,3 +177,49 @@ section .quadrado:nth-child(3){
     color: #fff;
     font-weight: 600;
 }
+
+.LogoIF {
+    position: absolute;
+    top: 350px;
+    left: 125px;
+    width: 160px;
+    height: 100px;
+  }
+  
+  .LogoIF a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .LogoIF a:hover {
+    opacity: 0.8;
+  }
+  
+  .LogoIF a:focus {
+    outline: none;
+  }
+  
+  .LogoIF a:active {
+    opacity: 0.8;
+  }
+  
+  .LogoIF a img {
+    display: flexbox;
+    width: 100%;
+    height: 100%;
+  }
+
+.LogoIF {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .LogoIF img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  
+  
