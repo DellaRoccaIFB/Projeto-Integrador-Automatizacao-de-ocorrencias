@@ -27,3 +27,9 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
 
   // Insira a imagem dentro da div "LogoIF"
   logoDiv.appendChild(logoImg);
+
+  function acessar() {
+    // Aqui você pode adicionar a lógica para o evento de clique do botão "Acessar"
+    // Por exemplo, redirecionar o usuário para outra página ou executar outras ações
+    window.location.href = "BemVindo.html";
+}

@@ -17,7 +17,7 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #93f0b5;
+    background: #0b0bda;
 }
 section .quadrado{
     position: absolute;
@@ -35,7 +35,7 @@ section .quadrado:nth-child(2){
     left: 110px;
     width: 500px;
     height: 500px;
-    background: #0cf42b;
+    background: #0f8a20;
 }
 
 
@@ -44,7 +44,7 @@ section .quadrado:nth-child(3){
     left: 120px;
     width: 450px;
     height: 450px;
-    background: #f19fa6;
+    background: #fb091d;
 }
 
 .quadrado{
@@ -90,7 +90,7 @@ section .quadrado:nth-child(3){
 .loginForm h2{
     position: relative;
     color: #fff;
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 12px;
@@ -180,7 +180,7 @@ section .quadrado:nth-child(3){
 
 .LogoIF {
     position: absolute;
-    top: 350px;
+    top: 370px;
     left: 125px;
     width: 160px;
     height: 100px;
@@ -222,4 +222,15 @@ section .quadrado:nth-child(3){
   }
   
   
-  
+/* Responsive */
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
